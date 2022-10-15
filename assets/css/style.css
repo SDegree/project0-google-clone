@@ -1,3 +1,55 @@
+nav {
+  text-align: right;
+  margin: 1rem;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline;
+  font: 0.8em sans-serif;
+  margin: 0.2rem;
+  padding-bottom: 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+nav .grid-fill {
+  margin-left: 1rem;
+}
+nav .path {
+  margin-top: 18px;
+}
+nav li .sign-in {
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.6rem;
+  border-radius: 5px;
+}
 
+.main .google-img, .main .form {
+  display: flex;
+  justify-content: center;
+}
+.main .round {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.main .round-left {
+  border-left: solid 1px black;
+}
+.main .round-right {
+  border-right: solid 1px black;
+}
+.main .search {
+  width: 100%;
+  height: 45px;
+}
 
 /*# sourceMappingURL=style.css.map */
