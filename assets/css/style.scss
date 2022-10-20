@@ -2,13 +2,13 @@ nav {
    text-align: right;
    margin: 1rem;
    ul {
-      list-style:none ;
+      list-style: none;
       // line-height: 14px;
    }
    li {
       display: inline;
-      font: .8em sans-serif;
-      margin: .2rem;
+      font: 0.8em sans-serif;
+      margin: 0.2rem;
       padding-bottom: 10px;
    }
    li a {
@@ -25,36 +25,40 @@ nav {
       margin-top: 18px;
    }
    li .sign-in {
-      background-color:  #0d6efd;
+      background-color: #0d6efd;
       border: none;
       color: white;
-      padding: .7rem 1.6rem;
+      padding: 0.7rem 1.6rem;
       border-radius: 5px;
    }
 }
 
 .main {
-   .google-img, .form {
+   .google-img,
+   .form {
       display: flex;
       justify-content: center;
    }
    .round {
-      height: 45px;
-      width: 45px;
-      border-radius: 50%;
+      height: 50px;
+      width: 50%;
+      margin-top: 3rem;
+      // border-radius: 50%;
+      border-end-start-radius: 25px;
+      border-top-left-radius: 25px;
+      border-start-end-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border: solid 1px #afafaf;
    }
 
-   .round-left {
-   border-left: solid 1px black;
-   }
-
-   .round-right {
-   border-right: solid 1px black;
+   .round:hover {
+      box-shadow: 0px 0px 3px #000;
    }
 
    .search {
-      width: 100%;
-      height: 45px;
+      width: 80%;
+      height: 40px;
       // border-radius: 50%;
+      // border: none;
    }
 }
