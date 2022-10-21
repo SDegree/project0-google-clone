@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 nav {
   text-align: right;
   margin: 1rem;
@@ -47,12 +51,40 @@ nav li .sign-in {
   border-bottom-right-radius: 25px;
   border: solid 1px #afafaf;
 }
-.main .round:hover {
+.main .round:hover,
+.main .round:focus-within {
   box-shadow: 0px 0px 3px #000;
 }
-.main .search {
-  width: 80%;
-  height: 40px;
+.main .round .row {
+  display: flex;
+  justify-content: center;
+}
+.main .round .row .col-start {
+  width: 15%;
+}
+.main .round .row .col-start .icon-search {
+  width: 23%;
+  margin: 12.5% auto;
+}
+.main .round .row .col-start .icon-search .icon {
+  opacity: 0.3;
+}
+.main .round .row .col-center {
+  width: 70%;
+}
+.main .round .row .col-center .search {
+  width: 100%;
+  height: 48px;
+  border: none;
+}
+.main .round .row .col-center .search:focus-visible {
+  outline: #fff;
+}
+.main .round .row .col-end {
+  width: 15%;
+}
+.main .round .row .col-end .camera {
+  width: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */
