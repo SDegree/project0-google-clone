@@ -60,10 +60,9 @@ nav {
       box-shadow: 0px 0px 8px #dfe1e5;
    }
 
-   .row,
-   .round {
+   .round .row {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
 
       .col-start {
          width: 8%;
@@ -112,6 +111,10 @@ nav {
             opacity: 0.2;
          }
 
+         .hiden {
+            opacity: 0;
+         }
+
          .camera {
             width: 25%;
             height: 44px;
@@ -133,5 +136,16 @@ nav {
       button:hover {
          border: solid 1px #dadce0;
       }
+
+      button a,
+      button a:visited {
+         text-decoration: none;
+         color: #3a3b3b;
+      }
+   }
+
+   .round .row:last-child {
+      display: flex;
+      justify-content: center;
    }
 }
