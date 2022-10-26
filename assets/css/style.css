@@ -51,6 +51,7 @@ nav li .sign-in {
   justify-content: center;
 }
 .main .round {
+  position: relative;
   height: 44px;
   width: 44%;
   margin-top: 3rem;
@@ -135,6 +136,15 @@ nav li .sign-in {
 .main .round .row:last-child {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+}
+.main .button-img {
+  position: absolute;
+  height: 73px;
+  top: 44px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .advance {

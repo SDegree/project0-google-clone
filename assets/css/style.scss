@@ -55,6 +55,7 @@ nav {
       justify-content: center;
    }
    .round {
+      position: relative;
       height: 44px;
       width: 44%;
       margin-top: 3rem;
@@ -158,6 +159,16 @@ nav {
    .round .row:last-child {
       display: flex;
       justify-content: center;
+      align-items: flex-end;
+   }
+
+   .button-img {
+      position: absolute;
+      height: 73px;
+      top: 44px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
    }
 }
 
