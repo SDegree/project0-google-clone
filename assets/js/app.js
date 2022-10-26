@@ -9,6 +9,10 @@ class App {
       }
    }
 
+   image() {
+      location.href = "image.html";
+   }
+
    clear() {
       document.querySelector(".search").value = "";
    }
@@ -19,3 +23,5 @@ const app = new App();
 document.querySelector(".close").addEventListener("click", app.clear);
 
 document.querySelector("html").addEventListener("click", app.show);
+
+document.querySelector(".camera").addEventListener("click", app.image);

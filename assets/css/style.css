@@ -1,17 +1,26 @@
 body {
   background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
 }
 
 nav {
   text-align: right;
   margin: 1rem;
 }
+nav .nav-logo {
+  float: left;
+}
+nav .nav-logo img {
+  width: 90px;
+}
 nav ul {
   list-style: none;
 }
 nav li {
   display: inline;
-  font: 0.8em sans-serif;
+  font: 0.8em arial, sans-serif;
   margin: 0.2rem;
   padding-bottom: 10px;
 }
@@ -59,6 +68,9 @@ nav li .sign-in {
   display: flex;
   justify-content: space-between;
 }
+.main .round .row .hiden {
+  opacity: 0;
+}
 .main .round .row .col-start {
   width: 8%;
 }
@@ -97,9 +109,6 @@ nav li .sign-in {
   background-color: black;
   opacity: 0.2;
 }
-.main .round .row .col-end .hiden {
-  opacity: 0;
-}
 .main .round .row .col-end .camera {
   width: 25%;
   height: 44px;
@@ -111,7 +120,7 @@ nav li .sign-in {
   margin: 30px 20px 0 0;
   border: none;
   border-radius: 5px;
-  font-family: Arial, sans-serif;
+  font-family: Arial, arial, sans-serif;
   font-size: 0.9rem;
   color: #3a3b3b;
 }
@@ -126,6 +135,91 @@ nav li .sign-in {
 .main .round .row:last-child {
   display: flex;
   justify-content: center;
+}
+
+.advance {
+  margin: 0;
+  color: #222;
+}
+.advance h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: arial, sans-serif;
+}
+.advance .row-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.advance .row-title .col {
+  border-bottom: solid 1px #dadce0;
+  width: 100%;
+}
+.advance .row-title h1 {
+  font-weight: normal;
+  color: #d93025;
+  padding: 0.6rem;
+  margin-left: 27px;
+}
+.advance .row {
+  display: flex;
+}
+.advance .row p {
+  font-size: 0.82rem;
+}
+.advance .row p span {
+  color: #666;
+  font-family: monospace;
+  font-size: 0.7rem;
+}
+.advance .row .col-left {
+  width: 15%;
+  margin-left: 40px;
+}
+.advance .row .col-center {
+  width: 40%;
+}
+.advance .row .col-center .input {
+  margin: 8px;
+  height: 50%;
+  width: 93%;
+  border: solid 1px #a9acb1;
+}
+.advance .row .col-center .input:hover,
+.advance .row .col-center .input:focus-visible {
+  outline: #a9acb1;
+}
+.advance .row .col-center .w-40 {
+  width: 43.2%;
+}
+.advance .row .right {
+  margin-right: 12.5rem;
+  display: flex;
+  justify-content: right;
+}
+.advance .row .right button {
+  width: 140px;
+  height: 30px;
+  background-color: #4d90fe;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.advance .row .col-last {
+  display: flex;
+}
+.advance .row .col-right {
+  width: 30%;
+}
+.advance .row .col-right p {
+  font-size: 0.7rem;
+  color: #555;
+}
+.advance .row .col-right p span {
+  color: #666;
+  font-family: monospace;
+  font-size: 0.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
